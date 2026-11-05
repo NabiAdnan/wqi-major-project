@@ -120,6 +120,16 @@ The 2025 Scientific Reports study on the same dataset reported
 1,987 samples; our copy has 1,991 rows. Document that as a
 dataset-version / source-copy discrepancy, not as an error.
 
+## Notebook version (whole project in one file)
+
+[`complete ipynb/WQI_Major_Project_Complete.ipynb`](complete%20ipynb/WQI_Major_Project_Complete.ipynb)
+contains the complete project — every line of `src/`, in the same order,
+with the same values — plus explanations and the full-run results and
+plots. Run it top to bottom (about a minute) and it reproduces the full
+experiment exactly: its pooled MAE matches the `src/` full run to 0.0
+on every method. It also runs on its own (e.g. Colab): the setup cell
+downloads the two data files from this repo if they are not present.
+
 ## How to run
 
 ```bash
