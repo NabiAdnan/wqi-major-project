@@ -1,0 +1,11 @@
+# WQI major project — install with:  pip install -r requirements.txt
+# Python 3.10+ recommended. Versions are lower bounds, not pins, so
+# the project installs on a fresh machine; the versions used while
+# developing this code are noted in README.md.
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.44
+scipy>=1.11
+matplotlib>=3.7
